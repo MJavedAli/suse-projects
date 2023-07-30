@@ -1,3 +1,4 @@
+![image](https://github.com/MJavedAli/suse-projects/assets/30997178/efac35ad-81f6-4300-9bfc-b83e484b1dd2)
 # GCP Virtual Machine Deployment with Terraform
 
 This Terraform project automates the deployment of a virtual machine (VM) on Google Cloud Platform (GCP). It creates a VM instance running Debian GNU/Linux 11 (bullseye) in a new GCP project, using the provided GCP credentials for authentication.
