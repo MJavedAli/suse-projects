@@ -8,7 +8,7 @@ module.exports = defineConfig({
     },
   }, 
     env: {
-      "USERNAME": "admin",
-      "PASSWORD": "Ho9h3GNZAL5jdJvg"
+      "USERNAME": "yourusername",
+      "PASSWORD": "yourpassword"
     }
 });
