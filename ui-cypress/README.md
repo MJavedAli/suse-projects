@@ -19,7 +19,7 @@ npm install
 ```
 ## Run Tests
 ```
-npx cypress open --browser chrome
+npx cypress run --browser chrome
 
 ```
 ## Results 
