@@ -19,4 +19,6 @@ npm install
 npx cypress open
 ```
 
-
+## Results 
+Run videos will be downloaded at ``` ~\ui-cypress\cypress\videos\login.cy.spec.js.mp4 ```
+![image](https://github.com/MJavedAli/suse-projects/assets/30997178/d09df0a4-2e78-4dd3-9f38-8e47de01af91)
