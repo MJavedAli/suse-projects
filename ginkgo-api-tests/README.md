@@ -10,8 +10,6 @@ This repository contains Ginkgo-based API tests for Rancher UI.
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
-- [Test Cases](#test-cases)
-- [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -29,6 +27,26 @@ The purpose of this project is to perform end-to-end API testing for the Rancher
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ginkgo-api-tests.git
+   git clone https://github.com/your-username/ginkgo-api-tests.git```
+2. Navigate to the project directory:
+   ```
+   cd ginkgo-api-tests
+   ```
+3. Install Ginkgo and Gomega:
 
-```
+   ```
+   go install github.com/onsi/ginkgo/ginkgo@latest
+   go install github.com/onsi/gomega@latest
+   ```
+
+4. Run the tests:
+   ```
+   go test -v
+   ```
+
+## Contributing
+Contributions are welcome! If you find any issues or want to add new features, feel free to create a pull request.
+
+## License 
+This project is licensed under the MIT License.
+
