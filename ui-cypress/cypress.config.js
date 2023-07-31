@@ -6,9 +6,12 @@ module.exports = defineConfig({
       this.baseUrl = config.baseUrl;
       
     },
-  }, 
+    baseUrl: "https://localhost:8443",
+    testingType: "e2e", 
+    specPattern: '**/*.spec.js',   }, 
     env: {
-      "USERNAME": "yourusername",
-      "PASSWORD": "yourpassword"
-    }
+      "USERNAME": "username",
+      "PASSWORD": "password"
+    },
+   
 });
