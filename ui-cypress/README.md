@@ -16,9 +16,12 @@ Once you have the prerequisites installed, you can install the project dependenc
 
 ```
 npm install
-npx cypress open
 ```
+## Run Tests
+```
+npx cypress open --browser chrome
 
+```
 ## Results 
 Run videos will be downloaded at ``` ~\ui-cypress\cypress\videos\login.cy.spec.js.mp4 ```
 ![image](https://github.com/MJavedAli/suse-projects/assets/30997178/d09df0a4-2e78-4dd3-9f38-8e47de01af91)
