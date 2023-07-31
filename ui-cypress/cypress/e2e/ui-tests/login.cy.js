@@ -19,6 +19,9 @@ describe('Rancher Web UI Tests', () => {
     cy.get('#password').type(password)
     cy.get('#submit').click()
 
+    //Login is successful & we are on the main page
+    cy.get('.side-menu-logo').should('be.visible')
+
   })
 
  })
