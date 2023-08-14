@@ -1,4 +1,4 @@
-# suse-projects
+# suselinux
 This repository contain 3 basic projects for :
 
 ## gcp-infra
