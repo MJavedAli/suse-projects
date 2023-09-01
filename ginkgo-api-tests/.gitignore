@@ -1,9 +1,0 @@
-# Temporary files
-*.tmp
-*.swp
-
-
-# Ignore go mod files if needed
-/go.mod
-/go.sum
-
